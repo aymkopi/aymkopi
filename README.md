@@ -13,7 +13,7 @@ I build web and mobile applications that help people move through multi-step wor
 <details open>
   <summary>Tech stack marquee</summary>
 
-  <img src="./assets/tech-stack.svg" width="780" alt="TypeScript, JavaScript, C#, Java, Dart, Python, HTML, and CSS. React, Vite, Tailwind CSS, Node.js, .NET, and Flutter. React Native. Expo. shadcn/ui. Blazor. MySQL, MongoDB, Cloudflare, Git, GitHub, Figma, Postman, and Visual Studio Code. Cloudflare Workers. Cloudflare R2. Aiven. GitHub Actions." />
+  <img src="./assets/tech-stack-marquee.svg" width="780" alt="TypeScript, JavaScript, C#, Java, Dart, Python, HTML, and CSS. React, Vite, Tailwind CSS, Node.js, .NET, and Flutter. React Native. Expo. shadcn/ui. Blazor. MySQL, MongoDB, Cloudflare, Git, GitHub, Figma, Postman, and Visual Studio Code. Cloudflare Workers. Cloudflare R2. Aiven. GitHub Actions." />
 </details>
 
 **Working strengths:** Project leadership, workflow design across user roles, and coordinating student organizations.
