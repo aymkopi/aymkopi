@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="60" viewBox="0 0 780 60" role="img" aria-labelledby="title">
+  <title id="title">Tech stack marquee</title>
+  <style>
+    .track { animation: scroll 54s linear infinite; }
+    @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-3465px); } }
+    @media (prefers-reduced-motion: reduce) { .track { animation: none; } }
+    .ground { fill: #f6f8fa; }
+    .outline { stroke: #d0d7de; }
+    .chip { fill: #fff; stroke: #d0d7de; }
+    text { fill: #24292f; font: 600 15px system-ui, sans-serif; dominant-baseline: middle; }
+    .dot-0 { fill: #245bc4; }
+    .dot-1 { fill: #17744c; }
+    .dot-2 { fill: #754bb6; }
+    @media (prefers-color-scheme: dark) {
+      .ground { fill: #161b22; }
+      .outline, .chip { stroke: #3d4857; }
+      .chip { fill: #21262d; }
+      text { fill: #ecf0f4; }
+      .dot-0 { fill: #79a9ff; }
+      .dot-1 { fill: #65cf95; }
+      .dot-2 { fill: #c1a2ff; }
+    }
+  </style>
+  <defs>
+    <clipPath id="frame"><rect width="780" height="60" rx="9"/></clipPath>
+    <g id="stack">
+      <g transform="translate(12 12)">
+        <rect class="chip" width="132" height="36" rx="18"/>
+        <circle class="dot dot-0" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">TypeScript</text>
+      </g>
+      <g transform="translate(154 12)">
+        <rect class="chip" width="132" height="36" rx="18"/>
+        <circle class="dot dot-0" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">JavaScript</text>
+      </g>
+      <g transform="translate(296 12)">
+        <rect class="chip" width="64" height="36" rx="18"/>
+        <circle class="dot dot-0" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">C#</text>
+      </g>
+      <g transform="translate(370 12)">
+        <rect class="chip" width="77" height="36" rx="18"/>
+        <circle class="dot dot-0" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Java</text>
+      </g>
+      <g transform="translate(457 12)">
+        <rect class="chip" width="77" height="36" rx="18"/>
+        <circle class="dot dot-0" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Dart</text>
+      </g>
+      <g transform="translate(544 12)">
+        <rect class="chip" width="95" height="36" rx="18"/>
+        <circle class="dot dot-0" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Python</text>
+      </g>
+      <g transform="translate(649 12)">
+        <rect class="chip" width="77" height="36" rx="18"/>
+        <circle class="dot dot-0" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">HTML</text>
+      </g>
+      <g transform="translate(736 12)">
+        <rect class="chip" width="68" height="36" rx="18"/>
+        <circle class="dot dot-0" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">CSS</text>
+      </g>
+      <g transform="translate(813 12)">
+        <rect class="chip" width="86" height="36" rx="18"/>
+        <circle class="dot dot-1" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">React</text>
+      </g>
+      <g transform="translate(909 12)">
+        <rect class="chip" width="77" height="36" rx="18"/>
+        <circle class="dot dot-1" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Vite</text>
+      </g>
+      <g transform="translate(996 12)">
+        <rect class="chip" width="150" height="36" rx="18"/>
+        <circle class="dot dot-1" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Tailwind CSS</text>
+      </g>
+      <g transform="translate(1156 12)">
+        <rect class="chip" width="104" height="36" rx="18"/>
+        <circle class="dot dot-1" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Node.js</text>
+      </g>
+      <g transform="translate(1271 12)">
+        <rect class="chip" width="77" height="36" rx="18"/>
+        <circle class="dot dot-1" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">.NET</text>
+      </g>
+      <g transform="translate(1358 12)">
+        <rect class="chip" width="104" height="36" rx="18"/>
+        <circle class="dot dot-1" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Flutter</text>
+      </g>
+      <g transform="translate(1472 12)">
+        <rect class="chip" width="150" height="36" rx="18"/>
+        <circle class="dot dot-1" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">React Native</text>
+      </g>
+      <g transform="translate(1632 12)">
+        <rect class="chip" width="77" height="36" rx="18"/>
+        <circle class="dot dot-1" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Expo</text>
+      </g>
+      <g transform="translate(1719 12)">
+        <rect class="chip" width="123" height="36" rx="18"/>
+        <circle class="dot dot-1" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">shadcn/ui</text>
+      </g>
+      <g transform="translate(1852 12)">
+        <rect class="chip" width="95" height="36" rx="18"/>
+        <circle class="dot dot-1" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Blazor</text>
+      </g>
+      <g transform="translate(1957 12)">
+        <rect class="chip" width="86" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">MySQL</text>
+      </g>
+      <g transform="translate(2053 12)">
+        <rect class="chip" width="104" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">MongoDB</text>
+      </g>
+      <g transform="translate(2168 12)">
+        <rect class="chip" width="132" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Cloudflare</text>
+      </g>
+      <g transform="translate(2310 12)">
+        <rect class="chip" width="68" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Git</text>
+      </g>
+      <g transform="translate(2387 12)">
+        <rect class="chip" width="95" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">GitHub</text>
+      </g>
+      <g transform="translate(2492 12)">
+        <rect class="chip" width="86" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Figma</text>
+      </g>
+      <g transform="translate(2588 12)">
+        <rect class="chip" width="104" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Postman</text>
+      </g>
+      <g transform="translate(2703 12)">
+        <rect class="chip" width="104" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">VS Code</text>
+      </g>
+      <g transform="translate(2817 12)">
+        <rect class="chip" width="206" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Cloudflare Workers</text>
+      </g>
+      <g transform="translate(3033 12)">
+        <rect class="chip" width="160" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Cloudflare R2</text>
+      </g>
+      <g transform="translate(3202 12)">
+        <rect class="chip" width="86" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">Aiven</text>
+      </g>
+      <g transform="translate(3298 12)">
+        <rect class="chip" width="169" height="36" rx="18"/>
+        <circle class="dot dot-2" cx="17" cy="18" r="3.5"/>
+        <text x="29" y="19">GitHub Actions</text>
+      </g>
+    </g>
+  </defs>
+  <rect class="ground" width="780" height="60" rx="9"/>
+  <g clip-path="url(#frame)">
+    <g class="track">
+      <use href="#stack"/>
+      <use href="#stack" x="3465"/>
+    </g>
+  </g>
+  <rect class="outline" x=".5" y=".5" width="779" height="59" rx="8.5" fill="none"/>
+</svg>
